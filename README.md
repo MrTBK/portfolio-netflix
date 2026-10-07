@@ -1,8 +1,10 @@
 # Mohamed Aziz Tabakh - Netflix Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-E50914?style=for-the-badge&logo=github&logoColor=white)](https://mrtbk.github.io/portfolio-netflix/)
+
 An interactive, responsive Netflix-inspired developer portfolio showcasing data engineering, Business Intelligence, Star Schema Data Warehouses, Power BI analytics, and competitive programming achievements.
 
-![Portfolio Preview](/public/sites/mrtbk/catemer360.png)
+🔗 **Live Website**: [https://mrtbk.github.io/portfolio-netflix/](https://mrtbk.github.io/portfolio-netflix/)
 
 ## 🍿 Features
 
