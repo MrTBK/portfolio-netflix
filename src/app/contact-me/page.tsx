@@ -13,6 +13,7 @@ import {
   CodeIcon,
 } from "@/components/sites/sumanthsamala/Icons";
 import data from "@/components/sites/sumanthsamala/data.json";
+import { asset } from "@/lib/asset";
 
 export default function ContactMePage() {
   const contact = data.contactMe;
@@ -47,7 +48,7 @@ export default function ContactMePage() {
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
             <div className="relative shrink-0">
               <img
-                src="/sites/mrtbk/avatar.jpg"
+                src={asset("/sites/mrtbk/avatar.jpg")}
                 alt={contact.name}
                 className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover border-2 border-red-600/40 shadow-xl"
               />

@@ -9,6 +9,7 @@ import {
   BriefcaseIcon,
   CodeIcon,
 } from "@/components/sites/sumanthsamala/Icons";
+import { asset } from "@/lib/asset";
 
 const HONORS = [
   {
@@ -106,7 +107,7 @@ export default function HonorsPage() {
             >
               <div className="aspect-video w-full overflow-hidden bg-slate-950 relative">
                 <img
-                  src={item.imgSrc}
+                  src={asset(item.imgSrc)}
                   alt={item.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />

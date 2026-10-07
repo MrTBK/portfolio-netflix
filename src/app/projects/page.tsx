@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { SiteLayout } from "@/components/sites/sumanthsamala/Navbar";
 import data from "@/components/sites/sumanthsamala/data.json";
+import { asset } from "@/lib/asset";
 
 interface ProjectItem {
   title: string;
@@ -157,7 +158,7 @@ export default function ProjectsPage() {
                   onClick={() => setSelectedProject(proj)}
                 >
                   <img
-                    src={imgSrc}
+                    src={asset(imgSrc)}
                     alt={proj.title}
                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 ease-out"
                   />
@@ -251,7 +252,7 @@ export default function ProjectsPage() {
               {/* Modal Top Image Banner */}
               <div className="relative h-56 sm:h-72 w-full bg-zinc-900 shrink-0">
                 <img
-                  src={selectedProject.image?.url || "/sites/mrtbk/catemer360.png"}
+                  src={asset(selectedProject.image?.url || "/sites/mrtbk/catemer360.png")}
                   alt={selectedProject.title}
                   className="w-full h-full object-cover object-top"
                 />

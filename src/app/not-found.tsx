@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 
 export default function NotFound() {
   return (
@@ -14,7 +15,7 @@ export default function NotFound() {
       <header className="relative z-10 px-6 sm:px-12 py-6 flex items-center justify-between border-b border-zinc-900 bg-black/60 backdrop-blur-md">
         <Link href="/browse" className="hover:opacity-90 transition-opacity">
           <img
-            src="/sites/sumanthsamala/aziz-tabakh-logo.png"
+            src={asset("/sites/sumanthsamala/aziz-tabakh-logo.png")}
             alt="AZIZ TABAKH"
             className="h-7 sm:h-9 w-auto"
           />

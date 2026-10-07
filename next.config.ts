@@ -1,27 +1,19 @@
 import type { NextConfig } from "next";
 
+const isGithubActions = process.env.GITHUB_ACTIONS === "true";
+const basePath = isGithubActions ? "/portfolio-netflix" : "";
+
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: "standalone",
-  async redirects() {
-    return [
-      {
-        source: "/music",
-        destination: "/projects",
-        permanent: false,
-      },
-      {
-        source: "/reading",
-        destination: "/education",
-        permanent: false,
-      },
-      {
-        source: "/blogs",
-        destination: "/projects",
-        permanent: false,
-      },
-    ];
+  output: "export",
+  basePath: basePath,
+  assetPrefix: basePath ? `${basePath}/` : undefined,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
 };
 
 export default nextConfig;

@@ -3,13 +3,14 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { asset } from "@/lib/asset";
 
 interface NavbarProps {
   currentProfile?: string;
   profileImage?: string;
 }
 
-export function Navbar({ profileImage = "/sites/sumanthsamala/blue.9b293a4a6ef065903a8f.png" }: NavbarProps) {
+export function Navbar({ profileImage = asset("/sites/sumanthsamala/blue.9b293a4a6ef065903a8f.png") }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [activeAvatar, setActiveAvatar] = useState(profileImage);
@@ -44,7 +45,7 @@ export function Navbar({ profileImage = "/sites/sumanthsamala/blue.9b293a4a6ef06
         <div className="navbar-left">
           <Link href="/" className="navbar-logo">
             <img
-              src="/sites/sumanthsamala/aziz-tabakh-logo.png"
+              src={asset("/sites/sumanthsamala/aziz-tabakh-logo.png")}
               alt="AZIZ TABAKH"
               style={{ height: "35px", width: "auto" }}
             />
@@ -106,7 +107,7 @@ export function Navbar({ profileImage = "/sites/sumanthsamala/blue.9b293a4a6ef06
         </div>
         <div className="navbar-right flex items-center gap-3">
           <a
-            href="/sites/mrtbk/resume.pdf"
+            href={asset("/sites/mrtbk/resume.pdf")}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded bg-[#E50914] hover:bg-red-700 text-white text-xs font-bold transition-all shadow-md active:scale-95"
@@ -127,7 +128,7 @@ export function Navbar({ profileImage = "/sites/sumanthsamala/blue.9b293a4a6ef06
 
           <Link href="/browse" title="Switch Profile">
             <img
-              src={activeAvatar}
+              src={asset(activeAvatar)}
               alt="Profile"
               className="profile-icon hover:scale-110 transition-transform"
               style={{ width: "32px", height: "32px", borderRadius: "4px", cursor: "pointer" }}
@@ -145,7 +146,7 @@ export function Navbar({ profileImage = "/sites/sumanthsamala/blue.9b293a4a6ef06
         <div className="w-full flex items-center justify-between px-6 mb-4">
           <div className="sidebar-logo">
             <img
-              src="/sites/sumanthsamala/aziz-tabakh-logo.png"
+              src={asset("/sites/sumanthsamala/aziz-tabakh-logo.png")}
               alt="AZIZ TABAKH"
               style={{ height: "35px", width: "auto" }}
             />
@@ -203,7 +204,7 @@ export function Navbar({ profileImage = "/sites/sumanthsamala/blue.9b293a4a6ef06
           </li>
           <li className="pt-2 border-t border-zinc-800">
             <a
-              href="/sites/mrtbk/resume.pdf"
+              href={asset("/sites/mrtbk/resume.pdf")}
               target="_blank"
               rel="noopener noreferrer"
               onClick={closeSidebar}
