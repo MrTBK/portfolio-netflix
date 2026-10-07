@@ -1,0 +1,318 @@
+{
+  "profilebanner": {
+    "backgroundImage": {
+      "url": "/sites/mrtbk/catemer360.png"
+    },
+    "headline": "Mohamed Aziz Tabakh",
+    "resumeLink": {
+      "url": "/sites/mrtbk/resume.pdf"
+    },
+    "linkedinLink": "https://www.linkedin.com/in/mohamed-aziz-tabakh-7b4674234",
+    "githubLink": "https://github.com/MrTBK",
+    "profileSummary": "Business Intelligence & Data Developer specializing in end-to-end Data Warehousing, automated ETL pipelines, Power BI analytics, and AI-powered business systems. National Competitive Programming finalist (TCPC) and Hackathon 1st Place Winner."
+  },
+  "workPermit": {
+    "visaStatus": "Business Intelligence (BI) Student & Developer",
+    "expiryDate": "2027-06-30",
+    "summary": "Currently completing a Bachelor's in Business Computing (Business Intelligence) at ESEN Manouba (École Supérieure d'Économie Numérique), Tunis, Tunisia.",
+    "additionalInfo": "Available for Summer Internships, Graduate Roles, and Freelance Data Engineering / BI consulting opportunities worldwide."
+  },
+  "allTimelines": [
+    {
+      "name": "COFICAB Group (Tunisia)",
+      "timelineType": "work",
+      "title": "Summer Intern — Business Intelligence & AI",
+      "techStack": "Python ETL, SQL Server, SSIS, Power BI, Flask, Angular, AI Chatbot",
+      "summaryPoints": [
+        "Developed automated ETL pipelines using Python and SSIS to extract, clean, and load complex Excel manufacturing data into SQL Server.",
+        "Engineered an automated data quarantine zone for rigorous quality control, schema validation, and real-time monitoring.",
+        "Modeled a Star Schema Data Warehouse under SSMS optimized for high-performance analytical queries.",
+        "Built a Full-Stack management platform integrating interactive Power BI dashboards and an enterprise AI assistant."
+      ],
+      "dateRange": "Aout 2026 - Aout 2026"
+    },
+    {
+      "name": "ESEN HiVE Club",
+      "timelineType": "work",
+      "title": "Problem Solving Department Leader",
+      "techStack": "C++, Algorithms, Data Structures, Codeforces, Competitive Programming",
+      "summaryPoints": [
+        "Led competitive programming and algorithmic problem-solving department.",
+        "Conducted training sessions and mentored students in C++ and Codeforces rounds.",
+        "Co-organized university coding battles including Bee Battle and ESEN HiVE Contest."
+      ],
+      "dateRange": "Septembre 2025 - Présent"
+    },
+    {
+      "name": "IEEE INSAT Computer Society Chapter",
+      "timelineType": "work",
+      "title": "Competitive Programming Workshop Trainer",
+      "techStack": "C++, Problem Setting, Advanced Algorithms, Data Structures",
+      "summaryPoints": [
+        "Delivered competitive programming workshops on graph theory, dynamic programming, and complexity analysis for engineering students at INSAT.",
+        "Designed problem sets and competition test cases."
+      ],
+      "dateRange": "2025 - 2026"
+    },
+    {
+      "name": "Youth Yes We Care Association",
+      "timelineType": "work",
+      "title": "Robotics & Algorithmics Trainer",
+      "techStack": "Arduino, C++, Electronics, Sensors, Autonomous Vehicles",
+      "summaryPoints": [
+        "Taught young learners Arduino microcontroller programming, sensor integration, and electronic circuit prototyping.",
+        "Mentored robotics teams for regional and national educational robotics tournaments."
+      ],
+      "dateRange": "Juin 2024 - Présent"
+    },
+    {
+      "name": "École Supérieure d’Économie Numérique (ESEN) — Manouba",
+      "timelineType": "education",
+      "title": "Licence en Informatique de Gestion — Spécialité Business Intelligence (BI)",
+      "techStack": "Data Warehousing, ETL, Data Mining, SQL, Big Data, Applied AI",
+      "summaryPoints": [
+        "Rigorous coursework in dimensional modeling, data engineering, statistical analysis, and decision-support systems."
+      ],
+      "dateRange": "2024 - Présent"
+    },
+    {
+      "name": "Lycée Mohamed Arbi Chammari",
+      "timelineType": "education",
+      "title": "Baccalauréat en Sciences de l’Informatique",
+      "techStack": "Algorithms, Pascal/Python, Computer Architecture, Math",
+      "summaryPoints": [
+        "Graduated with honors in Computer Science stream."
+      ],
+      "dateRange": "2024"
+    }
+  ],
+  "allSkills": [
+    {
+      "name": "SQL Server & SSIS",
+      "category": "Database",
+      "description": "Star schema modeling, SSIS ETL pipelines, SSMS optimization",
+      "icon": "SiMysql"
+    },
+    {
+      "name": "Power BI & DAX",
+      "category": "Frontend",
+      "description": "Interactive analytical dashboards, KPIs, and DAX calculations",
+      "icon": "FaReact"
+    },
+    {
+      "name": "Python & Data Science",
+      "category": "Backend",
+      "description": "Pandas, NumPy, automated ETL scripts, Scikit-learn, Pygame",
+      "icon": "FaNodeJs"
+    },
+    {
+      "name": "C++ & Algorithms",
+      "category": "Backend",
+      "description": "Advanced competitive programming, graph algorithms, dynamic programming",
+      "icon": "FaJava"
+    },
+    {
+      "name": "Dimensional Modeling",
+      "category": "Database",
+      "description": "Star & Snowflake schema design, Data Marts, ETL/ELT architecture",
+      "icon": "SiPostgresql"
+    },
+    {
+      "name": "PostgreSQL & SQLite",
+      "category": "Database",
+      "description": "Relational database design, triggers, complex analytical queries",
+      "icon": "SiPostgresql"
+    },
+    {
+      "name": "Flask & REST APIs",
+      "category": "Backend",
+      "description": "Lightweight Python microservices, API integrations with AI models",
+      "icon": "SiSpringboot"
+    },
+    {
+      "name": "Angular & Frontend",
+      "category": "Frontend",
+      "description": "Component-driven web applications, dashboard interfaces",
+      "icon": "FaReact"
+    },
+    {
+      "name": "Docker & Linux",
+      "category": "DevOps",
+      "description": "Containerization of data services, bash scripting, Linux environments",
+      "icon": "FaDocker"
+    },
+    {
+      "name": "Git & GitHub",
+      "category": "DevOps",
+      "description": "Version control, automated GitHub Actions, CI workflows",
+      "icon": "SiTypescript"
+    },
+    {
+      "name": "Data Quality & Quarantine",
+      "category": "Database",
+      "description": "Automated data verification, schema enforcement, pipeline monitoring",
+      "icon": "SiRabbitmq"
+    },
+    {
+      "name": "Arduino & Embedded Systems",
+      "category": "DevOps",
+      "description": "Bluetooth vehicle control, ultrasonic obstacle avoidance, Mecanum wheels",
+      "icon": "FaAws"
+    }
+  ],
+  "allProjects": [
+    {
+      "title": "SupplyChainIQ Platform",
+      "description": "End-to-end supply chain decision-making platform for inventory control, supplier evaluation, demand forecasting with ML, and logistics risk assessment with automated ETL and analytical Data Warehouse.",
+      "techUsed": "Python, SQL Server, Power BI, Data Warehouse, ETL, Machine Learning",
+      "category": "BI & Data Engineering",
+      "githubUrl": "https://github.com/MrTBK/SupplyChainIQ",
+      "image": {
+        "url": "/sites/mrtbk/supplychainiq.png"
+      }
+    },
+    {
+      "title": "COFICAB BI Integration & Enterprise AI",
+      "description": "Enterprise decision-support system built for automotive manufacturer COFICAB. Includes automated Python/SSIS ETL pipelines extracting complex manufacturing Excel data into SQL Server, Star Schema Data Warehouse, Power BI KPI dashboards, and an enterprise AI assistant.",
+      "techUsed": "Python, SSIS, SQL Server, Power BI, Flask, Angular, AI Chatbot",
+      "category": "BI & Data Engineering",
+      "githubUrl": "https://github.com/MrTBK/Customer360",
+      "image": {
+        "url": "/sites/mrtbk/coficab.png"
+      }
+    },
+    {
+      "title": "DataForge — Data Quality Platform",
+      "description": "Production-grade automated data hygiene and validation framework featuring automated quarantine routing for corrupted records, schema compliance checking, and pipeline health observability.",
+      "techUsed": "TypeScript, Python, SSIS, SQL Server, ETL Quality, Next.js",
+      "category": "BI & Data Engineering",
+      "githubUrl": "https://github.com/MrTBK/DataForge",
+      "image": {
+        "url": "/sites/mrtbk/dataforge.png"
+      }
+    },
+    {
+      "title": "SalesPulse — Commercial BI Platform",
+      "description": "Full-stack Business Intelligence platform for sales analytics: dimensional modeling, automated ETL pipelines, Data Warehouse under SSMS, and interactive Power BI executive dashboards.",
+      "techUsed": "TypeScript, SQL Server, Power BI, Star Schema, ETL, DAX",
+      "category": "BI & Data Engineering",
+      "githubUrl": "https://github.com/MrTBK/SalesPulse",
+      "image": {
+        "url": "/sites/mrtbk/salespulse.png"
+      }
+    },
+    {
+      "title": "Customer360 — Customer Analytics",
+      "description": "Comprehensive customer intelligence suite with RFM segmentation, customer lifetime value modeling, churn risk identification, and cohort analysis dashboards.",
+      "techUsed": "Python, SQL, Power BI, RFM Modeling, Machine Learning",
+      "category": "BI & Data Engineering",
+      "githubUrl": "https://github.com/MrTBK/Customer360",
+      "image": {
+        "url": "/sites/mrtbk/catemer360.png"
+      }
+    },
+    {
+      "title": "MaintIQ — Industrial Predictive Maintenance",
+      "description": "Condition monitoring and predictive maintenance analytics platform for industrial machinery: machine failure forecasting, risk score analysis, MTBF/MTTR metrics, and maintenance scheduling insights.",
+      "techUsed": "TypeScript, Python, Machine Learning, IoT Analytics, Predictive Modeling",
+      "category": "AI & Machine Learning",
+      "githubUrl": "https://github.com/MrTBK/MaintIQ",
+      "image": {
+        "url": "/sites/mrtbk/maintiq.png"
+      }
+    },
+    {
+      "title": "Shadow-Code — Deep RL Chess Engine",
+      "description": "🎮 Feature-rich chess game featuring a Deep Reinforcement Learning (DRL) AI agent, real-time online multiplayer over network sockets, comprehensive game-state evaluation, and Pygame interface.",
+      "techUsed": "Python, Pygame, Deep RL, Neural Networks, Sockets, Game AI",
+      "category": "AI & Machine Learning",
+      "githubUrl": "https://github.com/MrTBK/Shadow-Code",
+      "image": {
+        "url": "/sites/mrtbk/shadow_code.png"
+      }
+    },
+    {
+      "title": "Masroufi (مصروفي)",
+      "description": "The first personal finance app for Tunisia built with Flutter. 100% private and offline-first with local SQLite, multilingual Arabic & English interface, expense categorization, and spending analytics.",
+      "techUsed": "Flutter, Dart, SQLite, UI/UX Design, Multilingual, Mobile Dev",
+      "category": "Mobile & Web",
+      "githubUrl": "https://github.com/MrTBK/Masroufi",
+      "image": {
+        "url": "/sites/mrtbk/masroufi.png"
+      }
+    },
+    {
+      "title": "BookCycle Tunisia",
+      "description": "Full-stack educational platform with PHP MVC architecture and Oracle XE database enabling Tunisian students to share, trade, and reuse academic textbooks sustainably.",
+      "techUsed": "PHP, Oracle XE, Web Dev, Full-Stack, Database Design",
+      "category": "Mobile & Web",
+      "githubUrl": "https://github.com/MrTBK/bookcycle-tunisia",
+      "image": {
+        "url": "/sites/mrtbk/bookcycle.jpg"
+      }
+    },
+    {
+      "title": "Peer Finder — Collaboration Matcher",
+      "description": "Collaborative student platform simulating project matching based on complementary technical skills, programming languages, and academic interests.",
+      "techUsed": "JavaScript, HTML5, CSS3, Responsive UI, Web Dev",
+      "category": "Mobile & Web",
+      "githubUrl": "https://github.com/MrTBK/peer_finder",
+      "image": {
+        "url": "/sites/mrtbk/peer_finder.png"
+      }
+    },
+    {
+      "title": "Arduino Autonomous & Bluetooth Robotics",
+      "description": "Embedded robotics suite: 1) Bluetooth smartphone-controlled vehicle, 2) Autonomous obstacle avoidance vehicle with dual ultrasonic sensors, and 3) Omnidirectional Mecanum-wheel robot.",
+      "techUsed": "Arduino, C++, Electronics, Sensors, Robotics, Hardware",
+      "category": "Robotics & Hardware",
+      "githubUrl": "https://github.com/MrTBK/arduino-bluetooth-car",
+      "image": {
+        "url": "/sites/mrtbk/arduino_car.png"
+      }
+    }
+  ],
+  "contactMe": {
+    "profilePicture": {
+      "url": "/sites/mrtbk/avatar.jpg"
+    },
+    "name": "Mohamed Aziz Tabakh",
+    "title": "Business Intelligence & Data Developer | Competitive Programmer",
+    "summary": "Based in Tunis, Tunisia. Passionate about turning raw corporate data into strategic intelligence, building resilient ETL pipelines, and solving complex algorithmic challenges.",
+    "companyUniversity": "ESEN Manouba & COFICAB Group",
+    "linkedinLink": "https://www.linkedin.com/in/mohamed-aziz-tabakh-7b4674234",
+    "githubLink": "https://github.com/MrTBK",
+    "email": "Mohamedaziz.tabakh@esen.tn",
+    "phoneNumber": "+216 56 597 139"
+  },
+  "allCertifications": [
+    {
+      "title": "Hackathon Monopoly 5.0 — 1st Place Winner 🥇",
+      "issuer": "ENACTUS TBS (Tunis Business School)",
+      "issuedDate": "May 2026",
+      "link": "https://www.linkedin.com/in/mohamed-aziz-tabakh-7b4674234",
+      "iconName": "university"
+    },
+    {
+      "title": "Tunisian Collegiate Programming Contest (TCPC)",
+      "issuer": "ICPC Qualifying Contest — Ranked #32 nationally",
+      "issuedDate": "March 2026",
+      "link": "https://www.linkedin.com/in/mohamed-aziz-tabakh-7b4674234",
+      "iconName": "university"
+    },
+    {
+      "title": "Codeforces Specialist / Algorithmic Problem Solving",
+      "issuer": "Codeforces & ESEN HiVE Club",
+      "issuedDate": "2025 - 2026",
+      "link": "https://github.com/MrTBK",
+      "iconName": "ieee"
+    },
+    {
+      "title": "Winter Cup Contest — Finalist",
+      "issuer": "INSAT Competitive Programming Club",
+      "issuedDate": "2025",
+      "link": "https://github.com/MrTBK",
+      "iconName": "ieee"
+    }
+  ]
+}
